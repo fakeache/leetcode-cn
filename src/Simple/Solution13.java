@@ -1,3 +1,5 @@
+package Simple;
+
 class Solution13 {
     public  static int getValue(char c){
         switch (c){
