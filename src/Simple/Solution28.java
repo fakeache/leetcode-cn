@@ -1,7 +1,5 @@
 package Simple;
 
-import java.util.Arrays;
-
 class Solution28 {
     public static int strStr(String haystack, String needle) {
         if(needle==null || needle.length()==0){
@@ -21,6 +19,7 @@ class Solution28 {
         }
         return -1;
     }
+
     public static void main(String[] args){
         String a = "hello";
         String b = "lo";
