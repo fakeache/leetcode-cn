@@ -2,7 +2,7 @@ package Simple;
 
 import java.util.Stack;
 
-class Solution {
+class Solution38 {
     public static String countAndSay(int n) {
         if(n==1){
             return "1";
