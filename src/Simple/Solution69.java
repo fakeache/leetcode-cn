@@ -26,7 +26,7 @@ public class Solution69 {
     }
 
     public static void main(String[] args){
-        int x = 1000000;
+        int x = 10000;
         System.out.println(mySqrt(x));
     }
 
