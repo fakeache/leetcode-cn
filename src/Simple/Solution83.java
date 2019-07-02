@@ -1,6 +1,6 @@
 package Simple;
 
-class Solution {
+class Solution83 {
     public ListNode deleteDuplicates(ListNode head) {
         if(head==null){
             return head;
