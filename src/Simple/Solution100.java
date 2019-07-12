@@ -52,5 +52,10 @@ public class Solution100 {
         LinkedList<TreeNode> l = new LinkedList<>();
         l.add(null);
         System.out.println(l.size());
+        LinkedList<Integer> l1 = new LinkedList<>();
+        l1.add(0,2);
+        l1.add(0, 3);
+        System.out.println(l1.get(0));
+        System.out.println(l1.get(1));
     }
 }
