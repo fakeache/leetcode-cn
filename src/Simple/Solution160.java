@@ -42,7 +42,7 @@ public class Solution160 {
         }
         return null;
     }
-    //写的太屎了
+    //写的太屎了 =_=
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         if(headA==null || headB==null){
             return null;
