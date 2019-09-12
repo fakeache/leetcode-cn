@@ -28,5 +28,6 @@ public class Solution198 {
     public static void main(String[] args){
         int[] nums = new int[]{2, 1, 1, 2};
         System.out.println(rob(nums));
+        System.out.println(9/10);
     }
 }
