@@ -3,7 +3,7 @@ package Simple;
 import java.util.HashMap;
 
 public class Solution290 {
-    public boolean wordPattern(String pattern, String str) {
+    public static boolean wordPattern(String pattern, String str) {
         int len1 = pattern.length();
         String[] strArray = str.split(" ");
         int len2 = strArray.length;
@@ -31,5 +31,11 @@ public class Solution290 {
             }
         }
         return true;
+    }
+
+    public static void main(String[] args){
+        String pattern = "abba";
+        String str = "dog dog dog dog";
+        System.out.println(wordPattern(pattern, str));
     }
 }
