@@ -7,5 +7,6 @@ public class ListNode {
     ListNode(int x) {
         val = x;
     }
+    ListNode(int val, Middle.ListNode next) { this.val = val; this.next = next; }
 }
 
